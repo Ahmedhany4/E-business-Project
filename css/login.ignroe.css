@@ -1,0 +1,73 @@
+body {
+  background-color: #eeeeee80;
+  font-family: 'cairo';
+}
+.form-container {width: 40%;box-shadow: 1px 1px 10px silver;margin: 170px auto;}
+
+.form-container h3 {
+  font-size: 2em;
+  margin: 58px 20px 53px;
+  font-weight: bold;
+  color: #0d6efd;
+  padding: 32px 9px 0px;
+}
+.form-container input {
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 314px;
+}
+
+p {
+  margin-top: 7px;
+  padding-bottom: 25px;
+}
+a {
+  text-decoration: none;
+  color: #0d6efd;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #dc3545;
+  text-decoration: underline;
+}
+.mybtn {
+  margin: 18px 0px 20px;
+  padding: 10px 25px;
+  font-size: 1.2em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.mybtn-p {
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  transition: all 0.2s;
+}
+.mybtn-p:hover {
+  background-color: #fff;
+  color: #0d6efd;
+}
+.mybtn-s {
+background-color: #077462;
+border: 1px solid #077462;
+margin-left: 5px;
+transition: all 0.2s;
+}
+.mybtn-s:hover {
+background-color: #fff;
+color: #077462;
+
+}
+.alert {
+  font-size: 21px;
+  padding: 20px 15px 20px 15px;
+  background-color: #bf0443;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
